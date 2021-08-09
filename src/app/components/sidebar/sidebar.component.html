@@ -1,1 +1,39 @@
-<p>sidebar works!</p>
+<mat-toolbar>
+    Curso RxJS
+</mat-toolbar>
+
+<mat-sidenav-container>
+    <mat-sidenav mode="side" class="mat-elevation-z8" opened>
+        <div class="text-center">
+            <img class="avatar mat-elevation-z8" src="http://assets.stickpng.com/images/585e4beacb11b227491c3399.png" />
+            <h4 class="name">Wilmer Stalin Alquinga Gualli</h4>
+            <p class="designation">Developer Front-end</p>
+        </div>
+        <mat-divider></mat-divider>
+
+        <button mat-button class="menu-button w-all">
+            <mat-icon>home</mat-icon>
+            <span>&nbsp; Home</span>
+        </button>
+        <button mat-button class="menu-button w-all">
+            <mat-icon>person</mat-icon>
+            <span>&nbsp; Profile</span>
+        </button>
+        <button mat-button class="menu-button w-all">
+            <mat-icon>info</mat-icon>
+            <span>&nbsp; About</span>
+        </button>
+
+        <mat-divider></mat-divider>
+
+        <button mat-button class="menu-button w-all">
+            <mat-icon>help</mat-icon>
+            <span>&nbsp; Help</span>
+        </button>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <div class="content mat-elevation-z8">
+            <app-rxjs></app-rxjs>
+        </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>
