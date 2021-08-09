@@ -46,6 +46,16 @@
             <mat-icon>help</mat-icon>
             <span>&nbsp; Help</span>
         </button>
+        <div nz-col nzSpan="4" class="text-center">
+            <div nz-row>
+                <p style="margin-top:20px;color: #fff;font-size: 19px;font-weight: 500;">
+                    {{now|date:'hh: mm: ss a'}}</p>
+            </div>
+            <br>
+            <div nz-row>
+                <p style="color: #ACB0D2;font-size:14px;margin-top: -20px;">{{now|date:'MMM dd, yyyy'}}</p>
+            </div>
+        </div>
     </mat-sidenav>
     <mat-sidenav-content>
         <div class="content mat-elevation-z8">
