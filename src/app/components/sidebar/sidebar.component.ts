@@ -12,9 +12,11 @@ export class SidebarComponent implements OnInit, AfterViewInit {
 
   @ViewChild(MatSidenav)
   sidenav!: MatSidenav;
-  now: Date | undefined;
+  now: Date;
 
-  constructor(private observer: BreakpointObserver) { }
+  constructor(private observer: BreakpointObserver) {
+    this.now = new Date();
+  }
 
   ngOnInit() {
     this.now = new Date();
