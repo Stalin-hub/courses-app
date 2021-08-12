@@ -12,16 +12,16 @@ export class RxjsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    const contador = interval(1000);
-    const time = timer(2000);
+    // const contador = interval(1000);
+    // const time = timer(2000);
 
-    contador.subscribe((n) => {
-      console.log('Cada ' + n + ' segundos');
-    });
+    // contador.subscribe((n) => {
+    //   console.log('Cada ' + n + ' segundos');
+    // });
 
-    time.subscribe((n) => {
-      console.log('Triggered');
-    });
+    // time.subscribe((n) => {
+    //   console.log('Triggered');
+    // });
   }
 
 }

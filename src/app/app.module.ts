@@ -16,6 +16,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { FromEventComponent } from './pages/rxjs/from-event/from-event.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     SidebarComponent,
     FooterComponent,
     DashboardComponent,
-    RxjsComponent
+    RxjsComponent,
+    FromEventComponent
   ],
   imports: [
     BrowserModule,
