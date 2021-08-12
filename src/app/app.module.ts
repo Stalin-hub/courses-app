@@ -17,6 +17,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { FromEventComponent } from './pages/rxjs/from-event/from-event.component';
+import { MapFilterComponent } from './pages/rxjs/map-filter/map-filter.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FromEventComponent } from './pages/rxjs/from-event/from-event.component
     FooterComponent,
     DashboardComponent,
     RxjsComponent,
-    FromEventComponent
+    FromEventComponent,
+    MapFilterComponent
   ],
   imports: [
     BrowserModule,
