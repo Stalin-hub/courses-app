@@ -19,6 +19,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { FromEventComponent } from './pages/rxjs/from-event/from-event.component';
 import { MapFilterComponent } from './pages/rxjs/map-filter/map-filter.component';
 import { TapComponent } from './pages/rxjs/tap/tap.component';
+import { ShareComponent } from './pages/rxjs/share/share.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { TapComponent } from './pages/rxjs/tap/tap.component';
     RxjsComponent,
     FromEventComponent,
     MapFilterComponent,
-    TapComponent
+    TapComponent,
+    ShareComponent
   ],
   imports: [
     BrowserModule,
