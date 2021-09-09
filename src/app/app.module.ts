@@ -20,6 +20,7 @@ import { FromEventComponent } from './pages/rxjs/from-event/from-event.component
 import { MapFilterComponent } from './pages/rxjs/map-filter/map-filter.component';
 import { TapComponent } from './pages/rxjs/tap/tap.component';
 import { ShareComponent } from './pages/rxjs/share/share.component';
+import { ConcatComponent } from './pages/rxjs/concat/concat.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ShareComponent } from './pages/rxjs/share/share.component';
     FromEventComponent,
     MapFilterComponent,
     TapComponent,
-    ShareComponent
+    ShareComponent,
+    ConcatComponent
   ],
   imports: [
     BrowserModule,

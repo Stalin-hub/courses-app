@@ -24,7 +24,7 @@ export class ShareComponent implements OnInit {
     const subs02 = obs.subscribe(val => console.log('Sub2: ' + val));
 
     const shareObs = obs.pipe(share());
-    console.log('Share On');
+    // console.log('Share On');
 
     const subs03 = shareObs.subscribe(val => console.log('Sub3: ' + val));
     const subs04 = shareObs.subscribe(val => console.log('Sub4: ' + val));
