@@ -22,6 +22,7 @@ import { TapComponent } from './pages/rxjs/tap/tap.component';
 import { ShareComponent } from './pages/rxjs/share/share.component';
 import { ConcatComponent } from './pages/rxjs/concat/concat.component';
 import { NextErrorComplComponent } from './pages/rxjs/next-error-compl/next-error-compl.component';
+import { BufferTimeComponent } from './pages/rxjs/buffer-time/buffer-time.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { NextErrorComplComponent } from './pages/rxjs/next-error-compl/next-erro
     TapComponent,
     ShareComponent,
     ConcatComponent,
-    NextErrorComplComponent
+    NextErrorComplComponent,
+    BufferTimeComponent
   ],
   imports: [
     BrowserModule,
