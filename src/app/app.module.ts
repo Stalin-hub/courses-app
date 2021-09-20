@@ -23,6 +23,7 @@ import { ShareComponent } from './pages/rxjs/share/share.component';
 import { ConcatComponent } from './pages/rxjs/concat/concat.component';
 import { NextErrorComplComponent } from './pages/rxjs/next-error-compl/next-error-compl.component';
 import { BufferTimeComponent } from './pages/rxjs/buffer-time/buffer-time.component';
+import { SwitchMapComponent } from './pages/rxjs/switch-map/switch-map.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { BufferTimeComponent } from './pages/rxjs/buffer-time/buffer-time.compon
     ShareComponent,
     ConcatComponent,
     NextErrorComplComponent,
-    BufferTimeComponent
+    BufferTimeComponent,
+    SwitchMapComponent
   ],
   imports: [
     BrowserModule,
