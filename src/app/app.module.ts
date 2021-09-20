@@ -24,6 +24,7 @@ import { ConcatComponent } from './pages/rxjs/concat/concat.component';
 import { NextErrorComplComponent } from './pages/rxjs/next-error-compl/next-error-compl.component';
 import { BufferTimeComponent } from './pages/rxjs/buffer-time/buffer-time.component';
 import { SwitchMapComponent } from './pages/rxjs/switch-map/switch-map.component';
+import { ForkJoinComponent } from './pages/rxjs/fork-join/fork-join.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { SwitchMapComponent } from './pages/rxjs/switch-map/switch-map.component
     ConcatComponent,
     NextErrorComplComponent,
     BufferTimeComponent,
-    SwitchMapComponent
+    SwitchMapComponent,
+    ForkJoinComponent
   ],
   imports: [
     BrowserModule,
