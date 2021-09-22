@@ -28,6 +28,7 @@ import { ForkJoinComponent } from './pages/rxjs/fork-join/fork-join.component';
 import { ConcatMapComponent } from './pages/rxjs/concat-map/concat-map.component';
 import { MergeFlatMapComponent } from './pages/rxjs/merge-flat-map/merge-flat-map.component';
 import { UseMultiObsComponent } from './pages/rxjs/use-multi-obs/use-multi-obs.component';
+import { ScanComponent } from './pages/rxjs/scan/scan.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { UseMultiObsComponent } from './pages/rxjs/use-multi-obs/use-multi-obs.c
     ForkJoinComponent,
     ConcatMapComponent,
     MergeFlatMapComponent,
-    UseMultiObsComponent
+    UseMultiObsComponent,
+    ScanComponent
   ],
   imports: [
     BrowserModule,
