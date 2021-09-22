@@ -32,6 +32,7 @@ import { ScanComponent } from './pages/rxjs/scan/scan.component';
 import { SubjectComponent } from './pages/rxjs/subject/subject.component';
 import { MulticastSubjectComponent } from './pages/rxjs/multicast-subject/multicast-subject.component';
 import { ReplaySubjectComponent } from './pages/rxjs/replay-subject/replay-subject.component';
+import { BehaviorSubjectComponent } from './pages/rxjs/behavior-subject/behavior-subject.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +57,8 @@ import { ReplaySubjectComponent } from './pages/rxjs/replay-subject/replay-subje
     ScanComponent,
     SubjectComponent,
     MulticastSubjectComponent,
-    ReplaySubjectComponent
+    ReplaySubjectComponent,
+    BehaviorSubjectComponent
   ],
   imports: [
     BrowserModule,
