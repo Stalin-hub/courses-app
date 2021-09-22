@@ -31,6 +31,7 @@ import { UseMultiObsComponent } from './pages/rxjs/use-multi-obs/use-multi-obs.c
 import { ScanComponent } from './pages/rxjs/scan/scan.component';
 import { SubjectComponent } from './pages/rxjs/subject/subject.component';
 import { MulticastSubjectComponent } from './pages/rxjs/multicast-subject/multicast-subject.component';
+import { ReplaySubjectComponent } from './pages/rxjs/replay-subject/replay-subject.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { MulticastSubjectComponent } from './pages/rxjs/multicast-subject/multic
     UseMultiObsComponent,
     ScanComponent,
     SubjectComponent,
-    MulticastSubjectComponent
+    MulticastSubjectComponent,
+    ReplaySubjectComponent
   ],
   imports: [
     BrowserModule,
