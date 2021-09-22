@@ -26,6 +26,7 @@ import { BufferTimeComponent } from './pages/rxjs/buffer-time/buffer-time.compon
 import { SwitchMapComponent } from './pages/rxjs/switch-map/switch-map.component';
 import { ForkJoinComponent } from './pages/rxjs/fork-join/fork-join.component';
 import { ConcatMapComponent } from './pages/rxjs/concat-map/concat-map.component';
+import { MergeFlatMapComponent } from './pages/rxjs/merge-flat-map/merge-flat-map.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { ConcatMapComponent } from './pages/rxjs/concat-map/concat-map.component
     BufferTimeComponent,
     SwitchMapComponent,
     ForkJoinComponent,
-    ConcatMapComponent
+    ConcatMapComponent,
+    MergeFlatMapComponent
   ],
   imports: [
     BrowserModule,
