@@ -29,6 +29,7 @@ import { ConcatMapComponent } from './pages/rxjs/concat-map/concat-map.component
 import { MergeFlatMapComponent } from './pages/rxjs/merge-flat-map/merge-flat-map.component';
 import { UseMultiObsComponent } from './pages/rxjs/use-multi-obs/use-multi-obs.component';
 import { ScanComponent } from './pages/rxjs/scan/scan.component';
+import { SubjectComponent } from './pages/rxjs/subject/subject.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { ScanComponent } from './pages/rxjs/scan/scan.component';
     ConcatMapComponent,
     MergeFlatMapComponent,
     UseMultiObsComponent,
-    ScanComponent
+    ScanComponent,
+    SubjectComponent
   ],
   imports: [
     BrowserModule,
