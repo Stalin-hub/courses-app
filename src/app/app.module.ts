@@ -30,6 +30,7 @@ import { MergeFlatMapComponent } from './pages/rxjs/merge-flat-map/merge-flat-ma
 import { UseMultiObsComponent } from './pages/rxjs/use-multi-obs/use-multi-obs.component';
 import { ScanComponent } from './pages/rxjs/scan/scan.component';
 import { SubjectComponent } from './pages/rxjs/subject/subject.component';
+import { MulticastSubjectComponent } from './pages/rxjs/multicast-subject/multicast-subject.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { SubjectComponent } from './pages/rxjs/subject/subject.component';
     MergeFlatMapComponent,
     UseMultiObsComponent,
     ScanComponent,
-    SubjectComponent
+    SubjectComponent,
+    MulticastSubjectComponent
   ],
   imports: [
     BrowserModule,
