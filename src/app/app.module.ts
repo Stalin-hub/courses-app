@@ -34,6 +34,7 @@ import { MulticastSubjectComponent } from './pages/rxjs/multicast-subject/multic
 import { ReplaySubjectComponent } from './pages/rxjs/replay-subject/replay-subject.component';
 import { BehaviorSubjectComponent } from './pages/rxjs/behavior-subject/behavior-subject.component';
 import { DebounceTimeComponent } from './pages/rxjs/debounce-time/debounce-time.component';
+import { CreateGenerateComponent } from './pages/rxjs/create-generate/create-generate.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { DebounceTimeComponent } from './pages/rxjs/debounce-time/debounce-time.
     MulticastSubjectComponent,
     ReplaySubjectComponent,
     BehaviorSubjectComponent,
-    DebounceTimeComponent
+    DebounceTimeComponent,
+    CreateGenerateComponent
   ],
   imports: [
     BrowserModule,
