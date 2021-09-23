@@ -33,6 +33,7 @@ import { SubjectComponent } from './pages/rxjs/subject/subject.component';
 import { MulticastSubjectComponent } from './pages/rxjs/multicast-subject/multicast-subject.component';
 import { ReplaySubjectComponent } from './pages/rxjs/replay-subject/replay-subject.component';
 import { BehaviorSubjectComponent } from './pages/rxjs/behavior-subject/behavior-subject.component';
+import { DebounceTimeComponent } from './pages/rxjs/debounce-time/debounce-time.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +59,8 @@ import { BehaviorSubjectComponent } from './pages/rxjs/behavior-subject/behavior
     SubjectComponent,
     MulticastSubjectComponent,
     ReplaySubjectComponent,
-    BehaviorSubjectComponent
+    BehaviorSubjectComponent,
+    DebounceTimeComponent
   ],
   imports: [
     BrowserModule,
